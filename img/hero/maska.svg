@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="none">
+  <!-- Where the letters may show, in the 1920x1080 frame of the hero film.
+       White: open sky and sea. Grey: behind the two glass railings.
+       Nothing below the infinity edge (y 605) or the decks. -->
+  <filter id="f"><feGaussianBlur stdDeviation="0.9"/></filter>
+  <g filter="url(#f)">
+    <rect x="0" y="0" width="1920" height="477" fill="#fff"/>
+    <rect x="374" y="476" width="1100" height="129" fill="#fff"/>
+    <rect x="0" y="476" width="375" height="124" fill="#fff" fill-opacity="0.42"/>
+    <polygon points="1473,476 1920,478 1920,600 1484,590 1473,592" fill="#fff" fill-opacity="0.42"/>
+  </g>
+</svg>
